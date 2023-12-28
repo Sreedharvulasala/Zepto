@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(6, 6, 110);
+}
+#loc a{
+    color: white;
+    text-decoration: none;
+}
+#seeall button{
+    color: red;
+    border: none;
+    background-color: white;
+    font-size: 16px;
+}
+#package{
+    display: flex;
+}
+#inp input{
+    width: 700px;
+    height: 42px;
+    font-size: 15px;
+    padding: 10px;
+    padding-left: 40px;
+    border-radius: 6px;
+    border: none;
+}
+#login button{
+    color: white;
+    background-color: rgb(6, 6, 110);
+    border: none;
+    font-size: 15px;
+}
+#cart button{
+    background-color: rgb(253, 68, 55);
+    color: white;
+    border: none;
+    padding: 20px;
+    border-radius: 10px;
+    width: 150px;
+}
+#search{
+    background-color: white;
+}
+#navbar2{
+    align-items: center;
+    justify-content: center;  
+    display: flex;
+    text-align: center;
+    background: radial-gradient(circle, indigo, purple)
+}
+#navbar2 h3{
+    font-size: 22px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+}
+#pan{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#move{
+    display: flex;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+#move img{
+    padding: 10px;
+    height: 300px;
+    width: 500px;
+}
+#inp i{
+    position: absolute;
+    transform: translatey(80%);
+    cursor: text;
+    padding-left: 20px;
+}
+#heading{
+    display: flex;
+    justify-content: space-between;
+}
+main{
+    margin: 30px;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+}
+#package a{
+    margin: 10px;
+    box-shadow: 0px 0px 1px 0px black ;
+    height: 270px;
+    width: 170px;
+    text-decoration: none;
+    color: black;
+}
+#package{
+    overflow: hidden;
+}
+.quantity{
+    color: rgba(0, 0, 0, 0.596);
+}
+.add{
+    cursor: pointer;
+    width: 50px;
+    background-color: white;
+    border-radius: 5px;
+    color: red;
+    padding: 5px;
+    border: 1px solid red;
+}
+#leftbtn{
+    background-color: white;
+    position: absolute;
+    padding: 10px;
+    color: red;
+    border: none;
+    border-radius: 50%;
+    transform: translatey(360%);
+    cursor: pointer;
+    font-size: 17px;
+}
+#rightbtn{
+    cursor: pointer;
+    background-color: white;
+    right: 30px;
+    border-radius: 50%;
+    position: absolute;
+    border: none;
+    color: red;
+    padding: 10px;
+    transform: translatey(360%);
+    font-size: 17px;
+}
+.off{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    background-color: rgb(121, 22, 214);
+    color: white;
+    padding: 6px;
+    position: absolute;
+    border-top-left-radius: 3px;
+    border-bottom-right-radius: 10px;
+    z-index: 1;
+}
+.text{
+    padding: 10px;
+}
+.categorylist{
+    display: flex;
+    flex-wrap: wrap;
+}
+.categorylist a{
+    padding: 10px;
+}
+.categorylist a img{
+    height: 200px;
+    width: 140px;
+}
+footer a{
+    padding: 60px;
+    text-decoration: none;
+    color: black;
+}
+footer{
+    margin: 20px;
+}
+#veg{
+    height: 200px;
+    width: 300px;
+}
+#img2{
+    transform: translateX(20%);   
+}
+.items{
+    display: flex;
+    overflow: hidden;
+}
+.items a{
+    padding: 12px;
+}
+.chicken{
+    text-align: center;
+}
+.explore{
+    margin-top: 30px;
+    display: flex;
+    height: 250px;
+    width: 400px;
+    margin-bottom: 30px;
+}
+.brands h2{
+    padding-bottom: 20px;
+}
+.brands img{
+    padding: 10px;
+}
+.brands{
+    margin-bottom: 20px;
+}
+.explorenow{
+    padding: 10px;
+    height: 250px;
+    width: 500px;
+}
+.check{
+    margin-top: 20px;
+    display: flex;
+}
+.check a img{
+    padding: 10px;
+}
+.bestdeals{
+    display: flex;
+    overflow: hidden;
+}
+.bestdeals a img{
+    height: 290px;
+    width: 500px;
+    padding: 10px;
+}
+.featured2{
+    display: flex;
+    margin-bottom: 20px;
+}
+.featured2 img{
+    height: 370px;
+    width: 310px;
+    padding: 10px;
+}
+.how{
+    text-align: center;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+.works{
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    height: 250px;
+    width: 300px;
+    box-shadow: 0px 0px 5px 2px rgb(233,232,234);
+    border-radius: 5px;
+}
+.must a{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+footer{
+    display: flex;
+}
